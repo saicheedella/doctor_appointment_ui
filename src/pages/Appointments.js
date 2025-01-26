@@ -97,7 +97,7 @@ const AppointmentCard = ({ app, user }) => {
                   width='50'
                   height='50'
                   style={{ borderRadius: '50%' }}
-                  src={`http://localhost:8000/api/image/${doctor.photo}`}
+                  src={`http://3.149.240.186:8000/api/image/${doctor.photo}`}
                   alt=''
                 />
               )}
@@ -116,7 +116,7 @@ const AppointmentCard = ({ app, user }) => {
                   width='50'
                   height='50'
                   style={{ borderRadius: '50%' }}
-                  src={`http://localhost:8000/api/image/${patient.photo}`}
+                  src={`http://3.149.240.186:8000/api/image/${patient.photo}`}
                   alt=''
                 />
               )}

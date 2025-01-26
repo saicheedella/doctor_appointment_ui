@@ -94,7 +94,7 @@ const Profile = () => {
                         width='100'
                         height='100'
                         style={{ borderRadius: '50%' }}
-                        src={`http://localhost:8000/api/image/${user.photo}`}
+                        src={`http://3.149.240.186:8000/api/image/${user.photo}`}
                         alt=''
                       />
                     )}

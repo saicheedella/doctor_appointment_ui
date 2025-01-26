@@ -1,7 +1,7 @@
 import axios from "axios";
 import constants from "../constants";
 
-let getConfig = 'http://localhost:8000/';
+let getConfig = 'http://3.149.240.186:8000/';
 
 const api = (method, url, data = null, token = null) => {
   if (token) {
